@@ -7,7 +7,7 @@ pkgrel=1
 pkgdesc="A simple PCD (Point Cloud Data) file viewer for archlinux"
 arch=('x86_64' 'i686')
 license=('MIT')
-depends=('glfw' 'pcl')
+depends=('glfw' 'pcl' 'glu' 'glibc' 'libglvnd' 'gcc-libs')
 source=("git+https://github.com/Yang-lin-09/pcd-viewer.git")
 
 sha256sums=('SKIP')
